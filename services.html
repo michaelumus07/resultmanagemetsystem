@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Michael umus Official Website | Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel = "icon" href="images/icon.PNG"type ="image/x-icon"> 
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+       <h1><span>Mike umus</span> DevCoder</h1>
+        </div>
+     <nav>
+       <ul class="topnav" id="dropdownClick">
+         <li class="left"><a href="index.html">Home</a></li>
+         <li class="left"><a href="about.html">About</a></li>
+         <li class="left" id="current"><a href="services.html">Services</a></li>
+           <li class="left" class="downlink"><a href="contacts.html">Contact Us</a></li>
+           <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+       </ul>
+     </nav>
+    </div>
+ </header>
+    <section class="newsletter">
+    <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+            <input type="email" class="input2" placeholder="Enter Your Email..." required="">
+            <button type="submit" class="btn1" id="btnSub">Subscribe</button>
+        </form>
+    </div>
+    </section>
+<div class="wrapper">
+    <div class="servicepg">
+        <div class="container">
+            <h1>Services</h1>
+        </div>
+    </div>
+    <div class="container" id="containerService">
+    <div class="service1">
+        <h2>Website Design/Develpment</h2>
+        <p>Create a beautiful and attractive website. We are specialized in any kind of websites. Porfolio Websites, Business Website, Media Websites such as (Musics and Videos), Blogs. And lot more.</p>
+        <p class="price1">Price:<span class="Old-price">N240,000</span><span class="new-price"> N150,000. <span class="price1">Maintenance: </span>N50,000.</span></p>
+    </div>
+    <div class="service1">
+        <h2>Mobile Application Development</h2>
+        <p>Create a good and nice mobile application for your business or for any other purpose.</p>
+        <p class="price1">Price:<span class="Old-price">N200,000</span><span class="new-price"> N110,000. <span class="price1">Maintenance: </span>N50,000.</span></p>
+    </div>
+    <div class="service1">
+        <h2>Graphics Design</h2>
+        <p>Design and edit anything at your service.(like Pictures, videos..etc). We also help in Editing and shooting movies.</p>
+        <p class="price1">Price:<span class="before-price">N50,000</span> <span class="new-price"> N30,000.</span></p>
+    </div>
+    <div class="service1">
+        <h2>Computer Engineering</h2>
+        <p>Repair your desktop or laptops, fix any software issues, hardware issues, printer issues. We also set up computers anywhere.</p>
+        <p class="price1">Price: Not fixed. Please contact us <a href="contacts.html" class="contact-service" target="_blank" >Here</a>.</p>
+    </div>
+    <div class="service1">
+        <h2>Desktop applications</h2>
+        <p>Create desktop or laptops applications for Bussiness (Supermarket, Stores, Warehouses, Companies, small-scale Bussniess).</p>
+        <p class="price1">Price:<span class="before-price">N100,000</span> <span class="new-price">   N90,000.</span></p>
+    </div>
+    </div>
+        <div class="container">
+            <div class="note">
+            <h2><span>Note:</span> If you are not satisfied with the prices, please don't hesitate to send us a message <a href="contacts.html">Here</a> Thanks.</h2>
+            </div>
+        </div>
+</div>
+    <footer>
+        <div class="container-2">
+            <div class="row">
+              <div class="col-3">
+                  <h2>Follow Us</h2>
+                  <ul class="followimg">
+                  <li><a href="https://web.facebook.com/" target="_blank"><img src="./images/fblogo.png"></a></li>
+                  <li><a href="https://twitter.com/michaelumus07" target="_blank"><img src="./images/twitterlogo.png"></a></li>
+                  <li><a href="https://www.instagram.com/mike.pearl/" target="_blank"><img src="./images/instalogo.png"></a></li>
+                  <li> <a href="https://www.yahoomail.com/michaelumus07/" target="_blank"><img src="./images/yahoo.jpg" alt=""></a></li>
+                  </ul>
+          </div>
+          <div class="col-3">
+                  <h2>Projects</h2>
+              <ul>
+                  <li><a href="#">Created Softwares</a></li>
+                  <li><a href="java_projects.html" target="_blank">Java Projects</a></li>
+                  <li><a href="#">Others Projects</a></li>
+              </ul>
+          </div>
+	<div class="col-3">
+			<h2>Languages</h2>
+		<ul>
+			<li><a href="#">C</a></li>
+			<li><a href="#">Java</a></li>
+			<li><a href="#">Html & CSS</a></li>
+		</ul>
+	</div>				
+	<div class="col-3">
+			<h2>Special</h2>
+		<ul>
+			<li><a href="#">PC repairs</a></li>
+			<li><a href="#">Maintenance</a></li>
+			<li><a href="#">Installation</a></li>
+		</ul>
+	</div>
+  </div>
+</div>	
+		<p><span>D I A</span> Web Design Copyright &copy; 2021</p>
+</footer>
+    
+<script src="script/contact.js"></script>
+	<script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    
+</body>
+</html>
